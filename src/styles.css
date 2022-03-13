@@ -1,0 +1,53 @@
+.App {
+  width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(217, 242, 248);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+h1 {
+  color: rgb(7, 100, 15);
+}
+
+.adding-form input,
+.adding-form button,
+.clean {
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.adding-form input {
+  background: #ffffff;
+}
+
+.adding-form button,
+.clean {
+  background: rgb(113, 115, 224);
+  color: white;
+}
+
+.list {
+  padding: 20px 0;
+  font-weight: bold;
+  color: rgb(10, 95, 24);
+}
+
+.list > div {
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.list > div:last-child {
+  border-bottom: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
